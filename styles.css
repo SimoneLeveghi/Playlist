@@ -14,3 +14,8 @@ ol li a:hover {
 ol li a:active {
     color: black;
 }
+
+a img {
+    width: 2rem;
+    height: auto;
+}
