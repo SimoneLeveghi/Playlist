@@ -5,6 +5,7 @@ h1 {
 ol li a {
     text-decoration: none;
     color: black;
+    transition: color .15s ease-in;
 }
 
 ol li a:hover {
