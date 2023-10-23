@@ -1,0 +1,16 @@
+h1 {
+    font-size: 3rem;
+}
+
+ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+ol li a:hover {
+    color: red;
+}
+
+ol li a:active {
+    color: black;
+}
