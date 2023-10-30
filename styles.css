@@ -1,24 +1,39 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     font-size: 3rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
 }
 
-ol li a {
+table {
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid white;
+}
+
+table th {
+    background-color: blueviolet;
+}
+
+table td a {
     text-decoration: none;
-    color: black;
+    color: white;
     transition: color .15s ease-in;
 }
 
-ol li a:hover {
-    color: red;
+table td a:hover {
+    color: blueviolet;
 }
 
-ol li a:active {
-    color: black;
+table td a:active {
+    color: white;
 }
 
 a img {
